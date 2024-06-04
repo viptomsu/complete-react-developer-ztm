@@ -7,7 +7,7 @@ Imperative: Difficult to see relationship between events and edge cases
 Dom manipulation is one of the biggest performance bottlenecks
 -> React takes care of this
 
-Declarative: this is what the state of the page, the difference is all the states are accounted in one place (one big Js object)
+Declarative: this is what the state of the page, the difference is all the states are accounted in one place (one big JS object)
 
 ## 2.Build websites like lego blocks
 
@@ -17,8 +17,8 @@ Design around the concept of reuseable components
 
 **Virtual DOM**
 
-- Js version of the DOM
-- is Js object describe the app
+- JS version of the DOM
+- is JS object describe the app
 - give React blueprint how it should update the actual DOM
 - when state changes, combine with components and update the DOM
 - states always move down -> easy to debug
@@ -34,3 +34,9 @@ Design around the concept of reuseable components
 1. Decide on Components
 2. Decide the State and where it lives
 3. What changes when state changes
+
+**Components**
+
+- tie together visual representation and functionality of UI
+- tie reuseable portions
+- Single responsibility
